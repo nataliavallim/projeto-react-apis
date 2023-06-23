@@ -87,13 +87,21 @@ const Header = () => {
       {location.pathname.includes("/details") &&
         (pokedex.find((pokemon) => pokemon.id === pokemonGlobal.id) ? (
           <GridItem colStart={27} colEnd={30}>
-            <Button onClick={() => (onOpen(), removePokemon(pokemonGlobal.id))}>
+            <Button
+              bgColor={"#FF6262"}
+              color={"#FFFFFF"}
+              onClick={() => (onOpen(), removePokemon(pokemonGlobal.id))}
+            >
               Excluir da Pokédex
             </Button>
           </GridItem>
         ) : (
           <GridItem colStart={27} colEnd={30}>
-            <Button onClick={() => (onOpen(), addPokedex(pokemonGlobal))}>
+            <Button
+              bgColor={"#33A4F5"}
+              color={"#FFFFFF"}
+              onClick={() => (onOpen(), addPokedex(pokemonGlobal))}
+            >
               Adicionar à Pokédex
             </Button>
           </GridItem>
