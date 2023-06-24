@@ -7,7 +7,7 @@
 
 <p> Foi utilizado como fonte de dados a [Poke Api](https://pokeapi.co/ "Poke Api"), que é uma Api pública.</p>
 
-<h3>Abaixo temos aluns exemplos visuais do que se encontra no site:</h3>
+<h3>Abaixo temos alguns exemplos visuais do que se encontra no site:</h3>
 
 <b>Página HOME:</b>
 
